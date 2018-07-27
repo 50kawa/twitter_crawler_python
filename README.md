@@ -1,1 +1,2 @@
 # twitter_crawler_python
+twitter上の対話ログをクロールする機構をpythonで実装しました。
