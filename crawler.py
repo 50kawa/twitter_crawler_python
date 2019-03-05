@@ -132,7 +132,7 @@ def ReadTimeLine(userid,nexttweet=None):
                     taiwa.append(zokusei)
 
                     #mysqlへコネクト
-                    connect=mysqlconnector.connect(user='root',password='abcd1234!',host='localhost',port=3333,database='twitter_conversation',charset='utf8')
+                    connect=mysqlconnector.connect(user='root',password='pswd',host='localhost',port=8888,database='database_name',charset='utf8')
                     print("sqlにつなげました")
                     cursor=connect.cursor()
                     cursor.execute('select max(conversation_id) from tc_rawdata')
